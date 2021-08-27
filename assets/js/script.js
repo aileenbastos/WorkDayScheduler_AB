@@ -21,3 +21,19 @@ function currentTime() {
        setInterval(checkTime, (1000 * 60));
     })
  };
+
+ // Load and display tasks function
+function loadTasks() {
+    if (currentHourMoment > 17) {
+       localStorage.clear();
+       window.location.reload;
+    };
+
+    Object.keys(localStorage).forEach((key) => {
+    $('textarea').each(function () {
+       if ($(this).attr('id') == key) {
+          $(this).val(localStorage.getItem(key));
+        }
+    });
+ });
+};

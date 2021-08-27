@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <!--Header-->
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <!--Scheduler-->
+    <div class="container">
+      <div class="row task-block">
+        <p class="col-1 pt-2 task-time">
+          9 AM
+        </p>
+        <textarea id="09" class="col-10 task-description">
+        </textarea>
+        <button class="col-1 saveTask"><i class="for task-save"></i>
+        </button>
+      </div>
+
+      <div class="row task-block">
+        <p class="col-1 pt-2 task-time">
+          10 AM
+        </p>
+        <textarea id="10" class="col-10 task-description">
+        </textarea>
+        <button class="col-1 saveTask"><i class="for task-save"></i>
+        </button>
+      </div>
+
+      <div class="row task-block">
+        <p class="col-1 pt-2 task-time">
+          11 AM
+        </p>
+        <textarea id="11" class="col-10 task-description">
+        </textarea>
+        <button class="col-1 saveTask"><i class="for task-save"></i>
+        </button>
+      </div>
+      
+      <div class="row task-block">
+        <p class="col-1 pt-2 task-time">
+          12 PM
+        </p>
+        <textarea id="12" class="col-10 task-description">
+        </textarea>
+        <button class="col-1 saveTask"><i class="for task-save"></i>
+        </button>
+      </div>
+
+      <div class="row task-block">
+        <p class="col-1 pt-2 task-time">
+          1 PM
+        </p>
+        <textarea id="13" class="col-10 task-description">
+        </textarea>
+        <button class="col-1 saveTask"><i class="for task-save"></i>
+        </button>
+      </div>
+
+      <div class="row task-block">
+        <p class="col-1 pt-2 task-time">
+          2 PM
+        </p>
+        <textarea id="14" class="col-10 task-description">
+        </textarea>
+        <button class="col-1 saveTask"><i class="for task-save"></i>
+        </button>
+      </div>
+
+      <div class="row task-block">
+        <p class="col-1 pt-2 task-time">
+          3 PM
+        </p>
+        <textarea id="15" class="col-10 task-description">
+        </textarea>
+        <button class="col-1 saveTask"><i class="for task-save"></i>
+        </button>
+      </div>
+
+      <div class="row task-block">
+        <p class="col-1 pt-2 task-time">
+          4 PM
+        </p>
+        <textarea id="16" class="col-10 task-description">
+        </textarea>
+        <button class="col-1 saveTask"><i class="for task-save"></i>
+        </button>
+      </div>
+
+      <div class="row task-block">
+        <p class="col-1 pt-2 task-time">
+          5 PM
+        </p>
+        <textarea id="17" class="col-10 task-description">
+        </textarea>
+        <button class="col-1 saveTask"><i class="for task-save"></i>
+        </button>
+      </div>
+
+    </div>
+<!--jQuery, Moment, and JS links-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

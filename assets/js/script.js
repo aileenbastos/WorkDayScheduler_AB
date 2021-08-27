@@ -37,3 +37,14 @@ function loadTasks() {
     });
  });
 };
+
+// Save task function
+function saveTasks() {
+    let id = $(this).parent().children('textarea').attr('id');
+    let task = $(this).parent().children('textarea').val();
+    localStorage.setItem(id, task);
+ };
+ 
+ loadTasks();
+ checkTime();
+ $('.saveButten').click(saveTasks);

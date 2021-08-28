@@ -1,21 +1,35 @@
-# Work Day Scheduler Starter Code
 
-In order to succeed in this Challenge, you will apply the following skills:
+# Work Day Scheduler
 
-Implement third-party libraries such as Bootstrap, jQuery, and Moment.js
+This project is a schedule organizer for professionals to keep track of appointments throughout the work day.
 
-Perform DOM traversals and manipulations with jQuery
+## Appendix
 
-Use jQuery to save user input in local storage
+Any additional information goes here
 
-Work with the Bootstrap grid layout in HTML
+  
+## Authors
 
-Work with Bootstrap components
+- [@aileenbastos](https://www.github.com/aileenbastos)
+## Documentation
 
-Add custom color styles to an existing CSS framework
+[Documentation](https://linktodocumentation)
 
-Work with custom fonts and icons via a content delivery network (CDN)
+  
+## 🚀 About Me
+Marketing professional, single mom, beginner coder, CrossFit athlete.
 
-The online lessons in this week's module will teach you the skills you need to succeed 
-in this Challenge. You’ll learn those by creating TaskMaster Pro, an advanced version 
-of the productivity app you built in the previous module.
+  
+## Screenshots
+
+C:\Users\Aileen\Desktop\challenges\WorkDayScheduler_AB\assets\images\screen_shot
+  
+## Deployment
+
+Deployed Site:
+https://aileenbastos.github.io/WorkDayScheduler_AB/
+
+GitHub Repo:
+https://github.com/aileenbastos/WorkDayScheduler_AB
+
+  

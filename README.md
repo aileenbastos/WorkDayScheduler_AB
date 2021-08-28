@@ -11,9 +11,6 @@ Any additional information goes here
 ## Authors
 
 - [@aileenbastos](https://www.github.com/aileenbastos)
-## Documentation
-
-[Documentation](https://linktodocumentation)
 
   
 ## 🚀 About Me
@@ -22,8 +19,7 @@ Marketing professional, single mom, beginner coder, CrossFit athlete.
   
 ## Screenshots
 
-C:\Users\Aileen\Desktop\challenges\WorkDayScheduler_AB\assets\images\screen_shot
-  
+![screen_shot](https://user-images.githubusercontent.com/87397372/131233309-72b68840-ef07-41ab-96ac-bbd76f16a191.jpg)  
 ## Deployment
 
 Deployed Site:

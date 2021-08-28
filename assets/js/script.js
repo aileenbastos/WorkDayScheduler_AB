@@ -9,16 +9,16 @@ const currentHourMoment = moment().format('HH');
 function currentTime() {
     $('textarea').each(function () {
        if ($(this).attr('id') == currentHourMoment) {
-          $(this).addClass('.present');
+          $(this).addClass('present');
        }
        else if ($(this).attr('id') < currentHourMoment) {
-          $(this).addClass('.past');
+          $(this).addClass('past');
        }
        else if ($(this).attr('id') > currentHourMoment) {
-          $(this).addClass('.future');
+          $(this).addClass('future');
        }
 
-       setInterval(checkTime, (1000 * 60));
+       setInterval(currentTime, (1000 * 60));
     })
  };
 
